@@ -1,4 +1,4 @@
-﻿/* COLORS I LIKE */
+/* COLORS I LIKE */
 
 /*
 
@@ -333,8 +333,6 @@ body{
 }
 
 .sublist2 .h1{
-	font-weight: bold;
-	font-size: 50px;
 	color: #ffffff;
 	text-align: center;
 }
@@ -421,6 +419,21 @@ body{
 }
 
 
+@media (max-width: 991px){
+.gallery img {
+    margin-bottom: 100px;
+  }
+}
+
+
+@media(max-width: 767px){
+  .gallery img{
+    margin-bottom: 50px;
+  }
+
+}
+
+
 .gallery h1{
 	text-align: center;
 	color: #fff;
@@ -456,6 +469,7 @@ body{
     margin-right: 40px;
     margin-left: 40px;
 }
+
 
 
 /*start contact us*/
